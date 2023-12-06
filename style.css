@@ -4,6 +4,7 @@ body{
 .h1{
     margin-top: 50px;
     font-family: 'Courier New', Courier, monospace;
+    color: black;
 }
 .div1{
     width: 600px;
@@ -49,4 +50,21 @@ body{
     margin-left: 1360px;
     margin-top: -0px;
     border-radius: 5px;
+}
+@media (width: 400px) {
+    .div1{
+        width: 300px;
+        height: 500px;
+        margin-left: 50px;
+    }
+    .ft1{
+        width: 200px;
+        height: 200px;
+    }
+    .h{
+        margin-top: 50px;
+    }
+    .ha{
+        margin-left: 300px;
+    }
 }
